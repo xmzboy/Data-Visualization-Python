@@ -32,29 +32,22 @@ Website have 4 folders:
 
 # Examples
 Global earthquake map:
-![Datasets1](https://github.com/xmzboy/
-Data-Visualization-Python/raw/main/readme_images/datasets_example.png)
+![Datasets1](https://github.com/xmzboy/Data-Visualization-Python/raw/main/readme_images/datasets_example.png)
 
 Global fires map:
-![Datasets2](https://github.com/xmzboy/
-Data-Visualization-Python/raw/main/readme_images/datasets_2_example.png)
+![Datasets2](https://github.com/xmzboy/Data-Visualization-Python/raw/main/readme_images/datasets_2_example.png)
 
 GitHub API:
-![api1](https://github.com/xmzboy/
-Data-Visualization-Python/raw/main/readme_images/api_1_example.png)
+![api1](https://github.com/xmzboy/Data-Visualization-Python/raw/main/readme_images/api_1_example.png)
 
 Hacker News API:
-![api](https://github.com/xmzboy/
-Data-Visualization-Python/raw/main/readme_images/api_2_example.png)
+![api](https://github.com/xmzboy/Data-Visualization-Python/raw/main/readme_images/api_2_example.png)
 
 Temperature from Alaska:
-![simple1](https://github.com/xmzboy/
-Data-Visualization-Python/raw/main/readme_images/csv_example.png)
+![csv](https://github.com/xmzboy/Data-Visualization-Python/raw/main/readme_images/csv_example.png)
 
 Random walk:
-![simple1](https://github.com/xmzboy/
-Data-Visualization-Python/raw/main/readme_images/simple_2_example.png)
+![simple1](https://github.com/xmzboy/Data-Visualization-Python/raw/main/readme_images/simple_2_example.png)
 
 Rolling dices:
-![simple2](https://github.com/xmzboy/
-Data-Visualization-Python/raw/main/readme_images/simple_1_example.png)
+![simple2](https://github.com/xmzboy/Data-Visualization-Python/raw/main/readme_images/simple_1_example.png)
