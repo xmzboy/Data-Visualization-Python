@@ -12,10 +12,24 @@ with open(filename) as f:
     for row in reader:
         lats.append(row[0])
         lons.append(row[1])
-        brighs.append(row[2])
+        brighs.append(float(row[2]))
 
 
-data = [Scattergeo(lon=lons, lat=lats)]
+data = [{
+    'type': 'scattergeo',
+    'lon': lons,
+    'lat': lats,
+    'marker': {
+        'size': [0.03 * br for br in brighs],
+        'color': brighs,
+        'colorscale': 'viridis',
+        'reversescale': True,
+        'colorbar': {'title': 'Brightness'},
+    }
+}
+]
+
+
 my_layout = Layout(title='Global fires')
 fig = {'data': data, 'layout': my_layout}
 offline.plot(fig, filename='global_fires.html')
