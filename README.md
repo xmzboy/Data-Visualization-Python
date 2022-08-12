@@ -3,7 +3,6 @@
 
 # Contents
 - [Requirements](#requirements)
-- [Quick start](#quick-start)
 - [Structure](#structure)
 - [Examples](#examples)
 
@@ -32,22 +31,21 @@ Website have 4 folders:
 
 # Examples
 Global earthquake map:
-![Datasets1](https://github.com/xmzboy/Data-Visualization-Python/raw/main/readme_images/datasets_example.png)
+![Datasets1](https://github.com/xmzboy/Data-Visualization-Python/blob/main/readme_images/datasets_example.PNG)
 
 Global fires map:
-![Datasets2](https://github.com/xmzboy/Data-Visualization-Python/raw/main/readme_images/datasets_2_example.png)
+![Datasets2](https://github.com/xmzboy/Data-Visualization-Python/blob/main/readme_images/datasets_2_example.PNG)
 
 GitHub API:
-![api1](https://github.com/xmzboy/Data-Visualization-Python/raw/main/readme_images/api_1_example.png)
+![api1](https://github.com/xmzboy/Data-Visualization-Python/blob/main/readme_images/api_1_example.PNG)
 
 Hacker News API:
-![api](https://github.com/xmzboy/Data-Visualization-Python/raw/main/readme_images/api_2_example.png)
+![api](https://github.com/xmzboy/Data-Visualization-Python/blob/main/readme_images/api_2_example.PNG)
 
 Temperature from Alaska:
-![csv](https://github.com/xmzboy/Data-Visualization-Python/raw/main/readme_images/csv_example.png)
-
+![csv](https://github.com/xmzboy/Data-Visualization-Python/blob/main/readme_images/csv_example.PNG)
 Random walk:
-![simple1](https://github.com/xmzboy/Data-Visualization-Python/raw/main/readme_images/simple_2_example.png)
+![simple1](https://github.com/xmzboy/Data-Visualization-Python/blob/main/readme_images/simple_2_example.PNG)
 
 Rolling dices:
-![simple2](https://github.com/xmzboy/Data-Visualization-Python/raw/main/readme_images/simple_1_example.png)
+![simple2](https://github.com/xmzboy/Data-Visualization-Python/blob/main/readme_images/simple_1_example.PNG)
