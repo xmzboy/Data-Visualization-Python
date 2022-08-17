@@ -1,5 +1,5 @@
 import unittest
-from python_rep import connection
+from module_data_and_plot import connection
 
 
 class TestConnection(unittest.TestCase):
