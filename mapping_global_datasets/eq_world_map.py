@@ -1,5 +1,5 @@
 import json
-from plotly.graph_objs import Scattergeo, Layout
+from plotly.graph_objs import Layout
 from plotly import offline
 
 filename = 'data/new_eq_data_30_days.json'
