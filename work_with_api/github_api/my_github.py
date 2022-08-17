@@ -1,5 +1,4 @@
 import requests
-from plotly.graph_objs import Bar
 from plotly import offline
 
 API_TOKEN = 'YOUR_TOKEN'
@@ -10,12 +9,10 @@ headers = {'Accept', 'application/vnd.github.v3+json'}
 
 r = requests.get(url, auth=(USER, API_TOKEN))
 print(f"Status code: {r.status_code}")
-
 response_dict = r.json()
 
 repo_names, size, labels = [], [], []
 print(f"Repositories returned: {len(response_dict)}")
-
 repo_dict = response_dict[0]
 
 print("\nSelected information about each repository:")
