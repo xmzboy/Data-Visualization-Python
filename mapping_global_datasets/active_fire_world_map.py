@@ -14,7 +14,6 @@ with open(filename) as f:
         lons.append(row[1])
         brighs.append(float(row[2]))
 
-
 data = [{
     'type': 'scattergeo',
     'lon': lons,
@@ -29,9 +28,6 @@ data = [{
 }
 ]
 
-
 my_layout = Layout(title='Global fires')
 fig = {'data': data, 'layout': my_layout}
 offline.plot(fig, filename='global_fires.html')
-
-
