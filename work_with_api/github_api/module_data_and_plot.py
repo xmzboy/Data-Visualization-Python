@@ -3,12 +3,14 @@ from plotly import offline
 
 
 def connection(url):
+    """Подключение к апи"""
     r = requests.get(url)
     print(f"Status code: {r.status_code}")
     return r
 
 
 def init_plot(stars, labels, repo_links):
+    """Инициализация настроек графика"""
     data = [{
         'type': 'bar',
         'x': repo_links,
@@ -37,6 +39,7 @@ def init_plot(stars, labels, repo_links):
 
 
 def data_proc(r):
+    """Сбор и обработка данных с апи"""
     response_dict = r.json()
     repo_dicts = response_dict['items']
     stars, labels, repo_links = [], [], []
@@ -54,6 +57,7 @@ def data_proc(r):
 
 
 def draw_html(stars, labels, repo_links):
+    """Отрисовка графика"""
     data, my_layout = init_plot(stars, labels, repo_links)
     fig = {'data': data, 'layout': my_layout}
     offline.plot(fig, filename='python_rep.html')

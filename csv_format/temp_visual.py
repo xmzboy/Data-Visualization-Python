@@ -15,7 +15,6 @@ with open(filename) as f:
     dates = []
     for row in reader:
         current_date = datetime.strptime(row[2], '%Y-%m-%d')
-
         try:
             high = (int(row[tmax]) - 32) / 1.8
             low = (int(row[tmin]) - 32) / 1.8

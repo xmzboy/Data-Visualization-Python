@@ -1,14 +1,16 @@
 from random import choice
 
 class RandomWalk:
-
+    """Класс случайной ходьбы"""
     def __init__(self, num_points=5000):
+        """Инициализация"""
         self.num_points = num_points
 
         self.x_values = [0]
         self.y_values = [0]
 
     def fill_walk(self):
+        """Процесс ходьбы"""
         while len(self.x_values) < self.num_points:
             x_step = self.get_step()
             y_step = self.get_step()
@@ -23,6 +25,7 @@ class RandomWalk:
             self.y_values.append(y)
 
     def get_step(self):
+        """Один шаг"""
         direction = choice([1, -1])
         distance = choice([i for i in range(5)])
         return direction * distance
