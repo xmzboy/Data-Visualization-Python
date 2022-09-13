@@ -22,7 +22,7 @@ Also, some projects use unique tokens (for example, a GitHub token)
 
 # Structure
 
-Website have 4 folders:
+Project have 4 folders:
 
 * 🎉 csv_format - working with csv filesining (display temperature graphs in the selected location)
 * 🎈 mapping_global_datasets - work with large amounts of data in json format (building earthquake map from json file data)
